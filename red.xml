@@ -4,6 +4,7 @@
     <relativeTo>WORKSPACE</relativeTo>
     <referencedLibrary type="PYTHON" name="SeleniumLibrary" path="C:/python/Lib/site-packages/SeleniumLibrary/__init__.py" dynamic="false"/>
     <referencedLibrary type="PYTHON" name="DataDriver" path="C:/python/Lib/site-packages/DataDriver/__init__.py" dynamic="false"/>
+    <referencedLibrary type="PYTHON" name="DatabaseLibrary" path="C:/python/Lib/site-packages/DatabaseLibrary/__init__.py" dynamic="false"/>
     <pythonpath/>
     <classpath/>
     <excludedForValidation/>

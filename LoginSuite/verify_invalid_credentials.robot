@@ -3,14 +3,14 @@
 Resource    ../Resource/comman_functionality.resource
 Resource    ../Resource/Pages/LoginPage.resource
 
-Library    DataDriver    file=../Test_Data/OpenEmr.xlsx    sheet_name=Verify_Invalid_Credentials_temp
+Library    DataDriver    file=../Test_Data/OpenEmr.xlsx    sheet_name=Verify_Invalid_credentials_temp
 
 Test Setup    Launch Browser
 Test Teardown    End Browser
 Test Template    Verify_Invalid_credentials_template
 
 *** Test Cases ***
-TC1
+TC1_${username}    
 
 *** Keywords ***
 Verify_Invalid_credentials_template
